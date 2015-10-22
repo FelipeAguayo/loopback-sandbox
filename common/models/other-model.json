@@ -1,0 +1,10 @@
+{
+  "name":"OtherModel",
+  "plural":"OtherModels",
+  "base": "Model",
+  "idInjection":true,
+  "properties":{
+     "name":"string",
+     "state":"string"
+  }
+}

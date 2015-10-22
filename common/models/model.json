@@ -1,0 +1,13 @@
+{
+  "name":"ModelExample",
+  "plural":"ModelExamples",
+  "idInjection":true,
+  "base": "PersistedModel",
+  "properties":{
+    "name":"string",
+    "email":{
+      "type":"string",
+      "required": true
+    }
+  }
+}
