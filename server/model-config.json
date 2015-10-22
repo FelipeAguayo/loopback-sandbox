@@ -13,8 +13,17 @@
       "./mixins"
     ]
   },
+  "OtherModel": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ModelExample": {
+    "dataSource": "db",
+    "public": true
+  },
   "User": {
-    "dataSource": "db"
+    "dataSource": "db",
+    "public": true
   },
   "AccessToken": {
     "dataSource": "db",
